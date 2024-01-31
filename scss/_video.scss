@@ -1,0 +1,49 @@
+
+
+
+/* video pagina */
+
+.video{
+    margin: 40px;
+}
+
+.contenedor-videos{
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .video{
+        margin: 0;
+       
+    }
+
+    .titulo{
+        font-size: 30px;
+        display: map-get($flex, flex);
+        flex-wrap: wrap;
+        justify-content: map-get($flex, justify);
+    }
+}
+
+.chat{
+    width: 150px;
+    padding: 20px;
+    background-color: $verde;
+    border-radius: 40%;
+    text-align: center;
+    font-family: $fuente-principal;
+    font-weight: map-get($font-weight, bold);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+        .chat-texto{
+            text-decoration: none;
+            color:$texto-negro;
+        }
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    
+}

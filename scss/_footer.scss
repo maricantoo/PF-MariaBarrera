@@ -1,0 +1,16 @@
+.PieDePagina{
+    padding: 30px;
+    background-color: $fondo-secundario;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 600px){
+   
+    .backgroun-planes{
+        margin: 40px 0px;
+    }
+
+}

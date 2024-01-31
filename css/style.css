@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+/* HEADER */
+header img {
+  border-radius: 50%;
+}
+
+.titulo {
+  text-align: center;
+  margin: 50px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #648FED;
+}
+
+.titulo-2 {
+  text-align: center;
+  margin: 60px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: black;
+  padding: 30px;
+  background-color: #E0C0E8;
+  border-radius: 35%;
+}
+
+.titulo-3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+  background-color: #E0C0E8;
+  border-radius: 35%;
+}
+
+/* Vista del titulo 3 en mobile */
+@media (max-width: 700px) {
+  .titulo-3 {
+    font-size: 25px;
+    margin: 40px 0;
+  }
+}
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.planes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.planes .backgroun-planes {
+  background-color: #648FED;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 6%;
+}
+.planes .backgroun-planes:hover {
+  transform: scale(1.1);
+}
+
+.backgroun-planes a {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.card-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #E0C0E8;
+  border-radius: 40%;
+}
+.card-text .card-text-list {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.card-text .card-text-list .card-text-list-item {
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* PAGINA PLANES */
+/* Plan primera card */
+.card1-item1, .card1-item2, .card1-item3, .card1-item4 {
+  color: rgb(134, 217, 134);
+  font-weight: 700;
+}
+
+.card1-item5, .card1-item6, .card1-item7, .card1-item8, .card1-item9 {
+  color: rgb(229, 102, 102);
+  font-weight: 700;
+}
+
+/* Plan segunda card */
+.card2-item1, .card2-item2, .card2-item3, .card2-item4, .card2-item5, .card2-item6 {
+  color: rgb(134, 217, 134);
+  font-weight: 700;
+}
+
+.card2-item7, .card2-item8, .card2-item9 {
+  color: rgb(229, 102, 102);
+  font-weight: 700;
+}
+
+/* Plan Tercera card */
+.card3-item1, .card3-item2, .card3-item3, .card3-item4, .card3-item5, .card3-item6, .card3-item7, .card3-item8, .card3-item9 {
+  color: rgb(134, 217, 134);
+  font-weight: 700;
+}
+
+.plan-basico {
+  display: flex;
+}
+.plan-basico .card-text-list {
+  margin-top: 40px;
+}
+.plan-basico .card-text-list .plan-basico-texto {
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* PAGINA TIENDA */
+.contenedor-tienda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenedor-tienda .tienda-background {
+  width: 250px;
+  background-color: #648FED;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 5%;
+}
+.contenedor-tienda .tienda-background .tienda-contenedor {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.tienda-background:hover {
+  transform: scale(1.1);
+}
+
+.imagen-tienda {
+  width: 200px;
+  height: 200px;
+}
+
+.tienda-parrafo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+
+.color {
+  color: rgb(134, 217, 134);
+}
+
+.tienda-boton {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 5px 50px;
+  border-radius: 10%;
+  border: none;
+  background-color: rgb(134, 217, 134);
+}
+.tienda-boton:hover {
+  color: red;
+}
+
+/* video pagina */
+.video {
+  margin: 40px;
+}
+
+.contenedor-videos {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .video {
+    margin: 0;
+  }
+  .titulo {
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.chat {
+  width: 150px;
+  padding: 20px;
+  background-color: rgb(134, 217, 134);
+  border-radius: 40%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.chat .chat-texto {
+  text-decoration: none;
+  color: black;
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+}
+
+/* FORMULARIO */
+.boton-formulario {
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+.PieDePagina {
+  padding: 30px;
+  background-color: #E0C0E8;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 600px) {
+  .backgroun-planes {
+    margin: 40px 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

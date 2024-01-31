@@ -1,0 +1,58 @@
+
+/* PAGINA TIENDA */
+
+
+.contenedor-tienda{
+    display: map-get($flex, flex);
+    flex-wrap: wrap;
+    justify-content: map-get($flex, justify);
+    .tienda-background{
+        width: 250px;
+        background-color: $fondo-primario;
+        padding: 30px;
+        margin: 30px;
+        border-radius: 5%;
+        .tienda-contenedor{
+            text-align: center;
+            margin-top: 16px;
+                  
+        }   
+    }
+}
+
+.tienda-background:hover{
+    transform: scale(1.1);
+}   
+
+
+.imagen-tienda{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+.tienda-parrafo{
+    font-family: $fuente-principal;
+    font-weight: map-get($font-weight, medium);
+    font-size: 20px;
+    color: white;
+}
+
+.color{
+    color: $verde;
+}
+
+.tienda-boton{
+    font-family: $fuente-principal;
+    font-weight: map-get($font-weight, medium);
+    padding: 5px 50px;
+    border-radius: 10%;
+    border: none;
+    background-color: $verde;
+    &:hover{
+        color: red;
+        
+    }
+}

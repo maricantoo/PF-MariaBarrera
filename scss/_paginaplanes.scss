@@ -1,0 +1,106 @@
+
+.planes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:10px;
+        .backgroun-planes{
+        background-color: $fondo-primario;
+        padding: 30px 0;
+        display: map-get($flex, flex);
+        justify-content: map-get($flex, justify); 
+        border-radius: 6%;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+
+
+    .backgroun-planes a{
+        font-family: $fuente-principal;
+        font-size: 20px;
+    }
+
+
+.card-title{
+    font-family: $fuente-principal;
+    font-weight: map-get($font-weight, medium);
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.card-text{
+    font-family: $fuente-principal;
+    font-weight: map-get($font-weight, medium);
+    font-size: 20px;
+    background-color: $fondo-secundario;
+    border-radius: 40%;
+        .card-text-list{
+            text-align: start;
+            font-family: $fuente-principal;
+            font-weight:  map-get($font-weight, light);
+            font-size: 15px;
+            
+                .card-text-list-item{
+                    padding: 5px;
+                   
+                }
+        }
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/* PAGINA PLANES */
+
+
+
+/* Plan primera card */
+
+.card1-item1, .card1-item2, .card1-item3, .card1-item4{
+    color: $verde;
+    font-weight:  map-get($font-weight, bold);
+}
+
+.card1-item5, .card1-item6, .card1-item7, .card1-item8, .card1-item9{
+    color: $rojo;
+    font-weight: map-get($font-weight, bold);
+}
+
+/* Plan segunda card */
+
+.card2-item1, .card2-item2, .card2-item3, .card2-item4, .card2-item5, .card2-item6{
+    color: $verde;
+    font-weight: map-get($font-weight, bold);
+}
+
+.card2-item7, .card2-item8, .card2-item9{
+    color: $rojo;
+    font-weight: map-get($font-weight, bold);
+}
+
+/* Plan Tercera card */
+
+.card3-item1, .card3-item2, .card3-item3, .card3-item4, .card3-item5, .card3-item6, .card3-item7, .card3-item8, .card3-item9{
+    color: $verde;
+    font-weight: map-get($font-weight, bold);
+}
+
+
+.plan-basico{
+    display: map-get($flex, flex);
+        .card-text-list{
+            margin-top: 40px;
+            .plan-basico-texto{
+                font-size: 20px;
+                padding: 10px;
+                
+                } 
+        }
+        
+}
