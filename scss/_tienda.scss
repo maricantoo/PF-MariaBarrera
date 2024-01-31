@@ -3,8 +3,7 @@
 
 
 .contenedor-tienda{
-    display: map-get($flex, flex);
-    flex-wrap: wrap;
+    @extend .flex-wrap;
     justify-content: map-get($flex, justify);
     .tienda-background{
         width: 250px;

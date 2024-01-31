@@ -1,7 +1,6 @@
 
 .planes{
-    display: flex;
-    flex-wrap: wrap;
+    @extend .flex-wrap;
     justify-content: space-evenly;
     gap:10px;
         .backgroun-planes{

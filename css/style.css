@@ -1,3 +1,8 @@
+.flex-wrap, .contenedor-tienda, .planes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -55,8 +60,6 @@ a {
 }
 
 .planes {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 10px;
 }
@@ -146,8 +149,6 @@ li {
 
 /* PAGINA TIENDA */
 .contenedor-tienda {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 .contenedor-tienda .tienda-background {
