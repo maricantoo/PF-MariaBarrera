@@ -8,8 +8,9 @@
         padding: 30px 0;
         display: map-get($flex, flex);
         justify-content: map-get($flex, justify); 
-        border-radius: 6%;
+        border-radius: 3%;
             &:hover{
+                transition: 1s;
                 transform: scale(1.1);
             }
         }
@@ -94,7 +95,7 @@ li{
 .plan-basico{
     display: map-get($flex, flex);
         .card-text-list{
-            margin-top: 40px;
+            margin-top: 10px;
             .plan-basico-texto{
                 font-size: 20px;
                 padding: 10px;

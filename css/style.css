@@ -33,7 +33,7 @@ header img {
   color: black;
   padding: 30px;
   background-color: #E0C0E8;
-  border-radius: 35%;
+  border-radius: 15%;
 }
 
 .titulo-3 {
@@ -44,7 +44,11 @@ header img {
   color: black;
   padding: 20px;
   background-color: #E0C0E8;
-  border-radius: 35%;
+  border-radius: 7%;
+}
+
+.boton-principal {
+  background-color: aqua;
 }
 
 /* Vista del titulo 3 en mobile */
@@ -68,9 +72,10 @@ a {
   padding: 30px 0;
   display: flex;
   justify-content: center;
-  border-radius: 6%;
+  border-radius: 3%;
 }
 .planes .backgroun-planes:hover {
+  transition: 1s;
   transform: scale(1.1);
 }
 
@@ -140,7 +145,7 @@ li {
   display: flex;
 }
 .plan-basico .card-text-list {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .plan-basico .card-text-list .plan-basico-texto {
   font-size: 20px;

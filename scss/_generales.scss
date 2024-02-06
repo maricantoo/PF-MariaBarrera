@@ -29,7 +29,7 @@ header img{
     color: $texto-negro;
     padding: 30px;
     background-color: $fondo-secundario;
-    border-radius: 35%;
+    border-radius: 15%;
 }
 
 .titulo-3{
@@ -40,10 +40,12 @@ header img{
     color: $texto-negro;
     padding: 20px;
     background-color: $fondo-secundario;
-    border-radius: 35%;
+    border-radius: 7%;
 }
 
-
+.boton-principal{
+    background-color: aqua;
+}
 /* Vista del titulo 3 en mobile */
 
 @media(max-width: 700px){
