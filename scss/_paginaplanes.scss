@@ -123,3 +123,15 @@ li{
     font-weight: 600;
     color: rgb(148, 11, 91);
 }
+
+@media(max-width: 700px){
+    .parrafo-texto{
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        font-family: "Dancing Script", cursive;
+        font-size: 40px;
+        font-weight: 600;
+        color: rgb(148, 11, 91);
+    }
+}
