@@ -2,27 +2,15 @@
 
 
 /* video pagina */
-
-.video{
-    margin: 40px;
+.parrafo-video{
+    color: rgb(222, 33, 184);
+    font-weight: 700;
+    padding: 10px 0;
 }
 
-.contenedor-videos{
+.titulo-video{
     text-align: center;
-}
-
-@media (max-width: 600px){
-    .video{
-        margin: 0;
-       
-    }
-
-    .titulo{
-        font-size: 30px;
-        display: map-get($flex, flex);
-        flex-wrap: wrap;
-        justify-content: map-get($flex, justify);
-    }
+    padding-bottom: 30px;
 }
 
 .chat{
@@ -45,5 +33,47 @@
 svg{
     width: 30px;
     height: 30px;
+    
+}
+
+.video-1{
+    width: 90%;
+    height: 400px;
+}
+
+.seccion-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+    box-shadow: 5px 5px 20px 5px;
+}
+
+
+
+@media (max-width: 700px){
+    .video{
+        margin: 0;
+       
+    }
+
+   
+
+    .titulo{
+        font-size: 30px;
+        display: map-get($flex, flex);
+        flex-wrap: wrap;
+        justify-content: map-get($flex, justify);
+    }
+    .seccion-video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .parrafo-video{
+        text-align: center;
+    }
     
 }

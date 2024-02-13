@@ -55,3 +55,36 @@
         
     }
 }
+
+@media(max-width: 700px){
+
+    
+    .contenedor-tienda{
+        @extend .flex-wrap;
+        justify-content: map-get($flex, justify);
+        .tienda-background{
+            width: 80%;
+            background-color: $fondo-primario;
+            padding: 30px;
+            margin: 30px;
+            border-radius: 5%;
+            .tienda-contenedor{
+                text-align: center;
+                margin-top: 16px;
+                      
+            }   
+        }
+    }
+
+    .imagen-tienda-contenedor{
+        display: flex;
+        justify-content: center;
+    }
+    .imagen-tienda{
+        width: 100%;
+        height: 100%;
+    }
+   
+    
+
+}

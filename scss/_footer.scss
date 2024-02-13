@@ -3,14 +3,34 @@
     background-color: $fondo-secundario;
     text-align: center;
     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
+.social-media{
+    display: flex;
+    gap: 20px;
+}
 /* MEDIA QUERY */
 
 @media (max-width: 600px){
    
     .backgroun-planes{
         margin: 40px 0px;
+    }
+
+    .PieDePagina{
+        padding: 30px;
+        background-color: $fondo-secundario;
+        text-align: center;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .social-media{
+       display: flex;
+       justify-content: center;
     }
 
 }

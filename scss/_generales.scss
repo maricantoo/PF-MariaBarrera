@@ -7,6 +7,16 @@ body{
     background-color: $texto-negro;
 }
 
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(236, 231, 231);
+}
+
+body::-webkit-scrollbar-thumb{
+   border-radius: 10%;
+   background-color: $fondo-primario;
+}
+
 /* HEADER */
 header img{
     border-radius: 50%;
@@ -29,7 +39,7 @@ header img{
     color: $texto-negro;
     padding: 30px;
     background-color: $fondo-secundario;
-    border-radius: 15%;
+    border-radius: 5%;
 }
 
 .titulo-3{
@@ -62,4 +72,13 @@ a{
     font-weight: map-get($font-weight, bold);
     
     
+}
+
+.dos{
+    font-size: 30px;
+}
+
+.segundo-section{
+    font-weight: 600;
+    text-align: center;
 }
